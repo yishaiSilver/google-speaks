@@ -18,6 +18,10 @@ Change "YOUR_DEVICE'S_NAME_HERE" to your device's name. Also change "192.168.0.3
 ```
 sudo chmod 777 /var/www/html
 ```
+If you're running this with python 2 and not python 3, you'll get an error from the zeroconf-Engine about unsupported operand type(s) for &: 'str' and 'int'. You can fix that error by executing:
+```
+sudo pip install --upgrade zeroconf==0.19.1
+```
 
 ## Usage
 
