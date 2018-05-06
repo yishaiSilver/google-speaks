@@ -14,7 +14,10 @@ sudo apt-get install apache2 apache2-utils
 ```
 
 ## Setup
-Change "YOUR_DEVICE'S_NAME_HERE" to your device's name. Also change "192.168.0.39" in the 24th line to your RPi's (hopefully static) IP address.
+Change "YOUR_DEVICE'S_NAME_HERE" to your device's name. Also change "192.168.0.39" in the 24th line to your RPi's (hopefully static) IP address. Next, you'll have to allow python to write to an accessible directory (/var/www/html) by executing:
+```
+sudo chmod 777 /var/www/html
+```
 
 ## Usage
 
