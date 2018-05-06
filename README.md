@@ -8,7 +8,10 @@ sudo pip install pychromecast
 sudo pip install gtts
 sudo pip install urllib3
 ```
-You'll also need to install apache.
+You'll also need to run an apache server. Install apache2 with:
+```
+sudo apt-get install apache2 apache2-utils
+```
 
 ## Setup
 Change YOUR_DEVICE'S_NAME_HERE to your device's name. Also change 192.168.0.39 to your RPi's (hopefully static) IP address.
