@@ -8,7 +8,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 standardSentence = "Hello world!"
 tts_init = gtts.gTTS(text=standardSentence, slow=False)
 
-def castSentence(sentence):
+def cast_sentence(sentence):
     # Find your device.
     chromecasts = pychromecast.get_chromecasts()
     [cc.device.friendly_name for cc in chromecasts]
