@@ -32,9 +32,9 @@ googleSpeaks.cast_sentence('Hello World!')
 ```
 
 ## Built With
-+ [pychromecast](www.google.com) - What is used to actually cast the audio file.
-+ [gTTS](www.google.com) -  Google Translate-based TTS Engine
-+ [apache2](www.google.com) - What makes the audio file available for casting.
++ [pychromecast](https://github.com/balloob/pychromecast) - What is used to actually cast the audio file.
++ [gTTS](https://github.com/pndurette/gTTS) -  Google Translate-based TTS Engine
++ [apache2](https://httpd.apache.org/) - What makes the audio file available for casting.
 
 ## License
 I don't care.
