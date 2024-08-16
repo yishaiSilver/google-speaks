@@ -1,4 +1,6 @@
-# googleSpeaks
+# google-speaks
+This was done six years ago, just before I entered college. Please keep that in mind.
+
 This is a simple python module that I made for casting sentences to google home from a Raspberry Pi. It gets around pychromecast's inability to cast local files, and, when paired with other services, it allows google home to offer me information without me having to ask for said information. Likewise, it also allows me to ask for information beyond that which the Google Assistant and IFTTT allow for (that is to say, of course, a premade response), such as the connection status of my devices. Also, this is a bit of a throw-together; if you feel you can improve it let me know.
 
 ## Prerequisites
